@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "personalwelcome",
+  "version": "1.0.0",
+  "name": "Personal Welcome",
+  "description": "Server-side welcome message with player ping, online count and /myping command.",
+  "authors": ["jad88"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "server": ["com.dinokebab.personalwelcome.PersonalWelcomeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*",
+    "minecraft": "~26.3"
+  }
+}
